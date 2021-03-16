@@ -1,0 +1,28 @@
+.mapCreatePage{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+} 
+
+.createMapForm{
+    top: 50%; 
+    position: fixed;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white
+}
+
+.noteCreationForm{
+    background-color: white;
+    position: fixed;
+    max-width: 200px;
+    max-height: 200px;
+    top: 45%;
+    left: 45%;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}

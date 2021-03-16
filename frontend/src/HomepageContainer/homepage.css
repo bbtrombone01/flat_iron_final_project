@@ -1,0 +1,57 @@
+.homepage{
+    background-color: azure;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+header nav {
+    float: right;
+    height: 90%;
+}
+
+nav header ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.gamecards{
+    
+    max-width: 200px;
+    max-height: 250px;
+    position: "relative";
+    margin-Right: 30px;
+    margin-bottom: 70px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    width: 200px;
+    overflow: scroll;
+
+}
+
+img{
+    height: 200px;
+    width: 100%
+}
+
+.gameCardH1 {
+    max-height: 40px;
+    overflow: scroll;
+}
+
+button{
+
+    /* padding: 10px;
+    background-color: white; */
+}

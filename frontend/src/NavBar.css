@@ -1,0 +1,23 @@
+ul#navbar li{
+    display: inline;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+}
+
+ul#navbar li {
+    float:right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
